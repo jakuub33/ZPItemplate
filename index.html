@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>ZPI</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="container">
+      <a href="#">
+        <img src="">LOGO
+      </a>
+
+      <div class="nav__links">
+        <a href="#landing-page">PROJEKT</a>
+        <a href="#about">KIM JESTEŚMY</a>
+        <a href="#team">ZESPÓŁ</a>
+        <a href="#progress">POSTĘP</a>
+      </div>
+
+      <a href="#contact">
+        <button class="btn btn__contact">
+          Kontakt<img src="img/letter.svg" />
+        </button>
+      </a>
+
+    </div>
+  </nav>
+  <main>
+    <section class="landing-page" id="landing-page" >
+      <div class="landing-page-shadow">
+        <div class="container">
+          <div class="landing-page-text">
+            <h1>Hasło reklamowe...</h1>
+
+            <h2>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book.
+            </h2>
+            <button class="btn btn_landing-page">Zobacz więcej</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <h1>Nasza aplikacja jest</h1>
+      <hr>
+      <div class="features__list" data-aos="slide-up">
+        <div class="feature__element">
+          <img src="img/fast-time.svg">
+          <p>SZYBKA</p>
+        </div>
+        <div class="feature__element" data-aos="slide-up">
+          <img src="img/responsive.svg">
+          <p>RESPONSYWNA</p>
+        </div>
+        <div class="feature__element" data-aos="slide-up">
+          <img src="img/shield.svg">
+          <p>BEZPIECZNA</p>
+        </div>
+        <div class="feature__element" data-aos="slide-up">
+          <img src="img/project-management.svg">
+          <p>INNOWACYJNA</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="about" id="about" data-aos="flip-right">
+        <h1>Kim jesteśmy</h1>
+        <hr>
+        <p>
+          Jesteśmy studentami 3 roku na kierunku Informatyka o rozszerzeniu Sieci i systemy rozproszone na Uniwersytecie
+          Kazimierza Wielkiego w Bydgoszczy.
+          Wspólnie stworzyliśmy zespół w celu zrealizowania i zaliczenia przedmiotu o nazwie Zespołowy Projekt
+          Informatyczny.
+          Jest to bardzo dobra możliwość zdobycia nowej wiedzy, praktyki i doświadczenia w pracy zespołowej.
+        </p>
+      </section>
+    </div>
+
+    <section class="team" id="team">
+      <h1>Zespół</h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img-tomek.png"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tomasz Lis</h5>
+              <p>Opis członka zespołu ZPI, za co jest odpowiedzialny itp.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img-kuba.png"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jakub Szymański</h5>
+              <p>Opis członka zespołu ZPI, za co jest odpowiedzialny itp.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img-szymon.png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Szymon Gąsiorowski</h5>
+              <p>Opis członka zespołu ZPI, za co jest odpowiedzialny itp.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img-tomekz.png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tomasz Żurner</h5>
+              <p>Opis członka zespołu ZPI, za co jest odpowiedzialny itp.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/user.svg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bartosz Giełdoń</h5>
+              <p>Opis członka zespołu ZPI, za co jest odpowiedzialny itp.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="timeline-section" id="progress">
+      <div class="container">
+        <h1>Postępy prac</h1>
+        <hr>
+        <div class="timeline-items" data-aos="fade-left">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">20.04.2021</div>
+            <div class="timeline-content">
+              <h3>Pierwsze spotkanie</h3>
+              <p>Spotkanie zapoznawcze między członkami zespołu oraz opiekunem projektu</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">13.05.2021</div>
+            <div class="timeline-content">
+              <h3>Drugie spotkanie</h3>
+              <p>Przedstawienie wstępnych pomysłów, konfiguracja platformy Trello oraz zapoznanie się z regulaminem</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">25.05.2021</div>
+            <div class="timeline-content">
+              <h3>Trzecie spotkanie</h3>
+              <p>Sprawy organizacyjne, zbieranie pomysłów oraz kryteriów wyboru najlepszego tematu</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">01.05.2021</div>
+            <div class="timeline-content">
+              <h3>Czwarte spotkanie</h3>
+              <p>Opracowanie kryteriów wyboru tematu, stworzenie pierwszej wersji strony "wizytówki"</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">data</div>
+            <div class="timeline-content">
+              <h3>Piąte spotkanie</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">data</div>
+            <div class="timeline-content">
+              <h3>Szóste spotkanie</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">data</div>
+            <div class="timeline-content">
+              <h3>siódme spotkanie</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="contact">
+          <h2>Kontakt</h2>
+          <p><i class="far fa-envelope"></i> Adres email: <a
+              href="mailto:someone@yoursite.com?subject=Mail from Our Site">someone@yoursite.com</a> </p>
+        </div>
+
+        <div class="footer__logo">
+          <p>We współpracy z</p>
+          <a href="https://revdebug.com/" target="_blank">
+            <img src="img/logo__footer.png">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-70px";
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
