@@ -68,6 +68,12 @@ nav .container {
     cursor: pointer;
 }
 
+.btn a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
 .btn:hover {
     transform: scale(1.1);
     background-color: white;
